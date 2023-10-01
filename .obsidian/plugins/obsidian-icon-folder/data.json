@@ -1,0 +1,50 @@
+{
+  "settings": {
+    "migrated": 3,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "none",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiSettings",
+      "LiSnowflake",
+      "LiSun",
+      "LiPieChart",
+      "LiStickyNote"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [
+      {
+        "rule": "exam",
+        "icon": "LiPen",
+        "for": "everything",
+        "order": 2,
+        "useFilePath": false
+      },
+      {
+        "rule": "notes",
+        "icon": "LiStickyNote",
+        "for": "everything",
+        "order": 3,
+        "useFilePath": false
+      },
+      {
+        "rule": "\\w+\\d+ - ",
+        "icon": "LiBook",
+        "for": "everything",
+        "order": 6
+      }
+    ],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": true
+  },
+  "stats": "LiPieChart",
+  "summer": "LiSun",
+  "winter": "LiSnowflake",
+  "scripts": "LiSettings"
+}
