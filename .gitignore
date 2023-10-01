@@ -1,0 +1,11 @@
+.obsidian/*
+
+!.obsidian/community-plugins.json
+!.obsidian/core-plugins.json
+!.obsidian/core-plugins-migration.json
+!.obsidian/templates.json
+
+!.obsidian/plugins
+.obsidian/plugins/**
+!.obsidian/plugins/**/
+!.obsidian/plugins/**/data.json
