@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiLightbulb",
+      "LiBookTemplate",
       "LiSettings",
       "LiSnowflake",
-      "LiSun",
-      "LiPieChart",
-      "LiStickyNote"
+      "LiSun"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -33,6 +33,12 @@
         "icon": "LiBook",
         "for": "everything",
         "order": 6
+      },
+      {
+        "rule": "scripts",
+        "icon": "LiSettings",
+        "for": "everything",
+        "order": 3
       }
     ],
     "extraMargin": {
@@ -46,5 +52,7 @@
   "stats": "LiPieChart",
   "summer": "LiSun",
   "winter": "LiSnowflake",
-  "scripts": "LiSettings"
+  "scripts": "LiSettings",
+  "templates": "LiBookTemplate",
+  "ideas": "LiLightbulb"
 }
