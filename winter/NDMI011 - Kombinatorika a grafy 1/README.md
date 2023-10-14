@@ -1,0 +1,1 @@
+- alternativní poznámky: [slama.dev](https://slama.dev/poznamky/kombinatorika-a-grafy-i
