@@ -1,8 +1,8 @@
 ---
-tags: 
+tags:
   - vytvorujici_funkce
 date: 2023-10-14
-completed: false
+completed: true
 ---
 ## Důsledky derivace
 
