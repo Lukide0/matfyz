@@ -99,16 +99,18 @@ Cesta ze $z$ do $s$ obsahuje nejvýše $n$ hran, takže k prodloužení cesty do
 	- pokud existuje hrana $uv$ s $r(uv) \gt 0$ a $h(u) \gt h(v)$, převedeme přebytek po hraně $uv$.
 	- v opačném případě zvedneme $u: h(u) \leftarrow h(u) + 1$.
 
+**Alternativní zápis:**
 - $f(\_) \leftarrow 0$
 - $\forall zv \in E: f(zv) \leftarrow c(zv)$
 - $h(\_) \leftarrow 0$, $h(z) \leftarrow n$
-- dokud $\exists v \ne z,s: f$
+- dokud $\exists v \ne z,s: f^\Delta(u) \gt 0$:
+	- pokud $\exists uv \in E: r(uv) \gt 0 \land h(u) \gt h(v)$. převedeme po $uv$
+	- jinak: $h(u) \leftarrow h(u) + 1$
 
 ### Výška
 
 $h: V \rightarrow \mathbb{N}$
 ### Vlna
-
 $\forall e \in E: f(e) \le c(e)$
 $\forall v \ne z,s: f^\Delta(v) = 0$
 
@@ -118,10 +120,12 @@ $$
 \begin{align}
 f^\Delta(u) \gt 0 \\
 r(uv) \gt 0 \\
+h(u) \gt h(v) \\
 \delta := \min(f^\Delta(u), r(uv)) \\
 f'(uv) := f(uv) + \delta \\
 \end{align}
 $$
+Tok na hraně $uv$ zvýšíme o $\delta$.
 
 #### Důsledky převedení přebytku
 
