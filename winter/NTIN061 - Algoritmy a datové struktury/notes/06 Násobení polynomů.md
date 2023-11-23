@@ -95,4 +95,12 @@ $F : \mathbb{C}^n \rightarrow \mathbb{C^n}$
 
 $\vec{y} = F(\vec{x}) \equiv \forall j : y_j = \sum_{k=0}^{n-1}x_k\omega^{jk}$
 
+$y_j = \sum_{k = 0}^{n-1}x_k\omega^{jk}$
 
+### Lemma $\Omega^{-1}$
+
+$\Omega^{-1} = \frac{1}{n}\overline{\Omega}$
+
+$\Omega * \overline{\Omega} = n E_n$
+$(\Omega * \overline{\Omega})_{jk} = \sum_l (\Omega_{jl} * \overline{\Omega_{lk}}) = \sum \omega^{jl - kl} = \sum \omega^{(j-k)^l} = \frac{\omega^{(j-k)^n} - 1}{\omega^{j-k} - 1} = \frac{1-1}{\ne 0} = \frac{0}{\ne 0} = 0 \lhd j \ne k$
+Pro $j=k: q = 1 \rightarrow \sum = n$
