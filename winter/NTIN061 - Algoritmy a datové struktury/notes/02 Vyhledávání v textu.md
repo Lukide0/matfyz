@@ -40,7 +40,7 @@ completed: true
 	- baraba
 	- barbara
 
-![[res/aho_carasickova_hrany.png.png]]
+![[res/aho_carasickova_hrany.png]]
 
 ### Reprezentace
 
