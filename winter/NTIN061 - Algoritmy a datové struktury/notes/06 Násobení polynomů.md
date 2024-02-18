@@ -83,11 +83,11 @@ Výstup:
 - Pokud $n = 1: y_0 \leftarrow p_0$ a končíme
 - Jinak se rekurzivně zavoláme na sudou a lichou část koeficientů
 	- $(s_0,\dots,s_{n/2-1)} \leftarrow \text{FFT}(n/2, w^2,(p_0,p_2,\dots,p_{n-2})$
-	- $(l_0,\dots,l_{n/2-1)} \leftarrow \text{FFT}(n/2, w^2,(p_0,p_2,\dots,p_{n-2})$
+	- $(l_0,\dots,l_{n/2-1)} \leftarrow \text{FFT}(n/2, w^2,(p_1,p_3,\dots,p_{n-1})$
 - Z grafů obou částí poskládáme graf celého polynomu
 	- Pro $j=0,\dots,n/2-1$:
 		- $y_j \leftarrow s_j + \omega^j*l_j$
-		- $y_{j+n/2} \leftarrow s_j + \omega^j*l_j$
+		- $y_{j+n/2} \leftarrow s_j - \omega^j*l_j$
 
 ## Diskrétní Fourierova transformace (DFT)
 
