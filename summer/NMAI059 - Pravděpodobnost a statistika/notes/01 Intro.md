@@ -24,9 +24,11 @@ completed: true
 	- $P(A) = 1$
 - **pravděpodobnostní prostor
 	- $(\Omega, \mathcal{F}, P)$
+- **podmíněná pravděpodobnost**
+	- $P(A|B) = \frac{P(A \cap B)}{P(B)}$
+	- $P(B) \gt 0$ a $A, B \in \mathcal{F}$
 
-
-### Věta
+### Věta o základních vlastnostech
 
 $A, B \in \mathcal{F}$
 
@@ -39,4 +41,3 @@ $A, B \in \mathcal{F}$
 
 1. $\Omega = A \cup A^c$ a $P(\Omega) = P(A) + P(A^c)$
 2. $B = A \cup (B \setminus A) \rightarrow P(B) = P(A) + P(B \setminus A) = P(A) + (\ge 0)$
-
