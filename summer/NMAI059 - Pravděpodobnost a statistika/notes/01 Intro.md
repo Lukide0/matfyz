@@ -22,7 +22,7 @@ completed: true
 	- $P(A) = 0$
 - **jistý jev**
 	- $P(A) = 1$
-- **pravděpodobnostní prostor
+- **pravděpodobnostní prostor**
 	- $(\Omega, \mathcal{F}, P)$
 - **podmíněná pravděpodobnost**
 	- $P(A|B) = \frac{P(A \cap B)}{P(B)}$
