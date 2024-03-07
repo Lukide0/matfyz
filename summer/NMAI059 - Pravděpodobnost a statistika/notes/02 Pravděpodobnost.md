@@ -56,3 +56,12 @@ $P(B_j | A) = \frac{P(B_j)*P(A | B_j)}{\sum_i P(B_i)*P(A|B_i)}$
 $= \frac{P(A \cap B_j)}{P(A)} = \frac{P(B_j)*P(A|B_j)}{\sum_i \dots}$
 
 ## Nezávislost (dvou) jevů
+
+- $A,B \in \mathcal{F}$
+- $A,B$ jsou nezávislé ($A \bot B$) 
+- pokud $P(A \cap B) = P(A)P(B)$
+
+$$\begin{align}P(A\cap B) &= P(A)P(B) \\ P(A|B) &= \frac{P(A\cap B)}{P(B)} = P(A) \end{align}$$
+- $A_1,A_2,\dots$ jsou nezávislé jevy pokud $P\left(\bigcap_{i \in J}A_i\right) = \prod_{i \in J}P(A_i), J \subseteq \{1,2, \dots\}$
+- $A,B$ jsou nezávislé za podmínky $C$ ($A \bot_C B$)
+	- $P(A\cap B | C) = P(A|C)P(B|C)$
